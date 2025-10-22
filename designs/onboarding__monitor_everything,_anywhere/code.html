@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EcoBin Onboarding</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#2E7D32",
+            "background-light": "#F5F5F5",
+            "background-dark": "#112112",
+            "bright-green": "#66BB6A",
+            "dark-gray": "#333333",
+            "subtle-blue": "#2196F3"
+          },
+          fontFamily: {
+            "display": ["Inter", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-screen w-full flex-col group/design-root overflow-hidden">
+<div class="flex items-center p-4 pb-2 justify-between">
+<div class="flex size-12 shrink-0 items-center"></div>
+<div class="flex items-center justify-end">
+<p class="text-primary dark:text-bright-green text-base font-bold leading-normal tracking-[0.015em] shrink-0">Skip</p>
+</div>
+</div>
+<div class="flex-grow flex flex-col justify-center items-center px-4">
+<div class="w-full max-w-sm">
+<div class="w-full bg-center bg-no-repeat bg-contain aspect-square" data-alt="Illustration of a smartphone showing a farm dashboard with charts and graphs" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuANUcm32xTVbRQ74JJd0D0cJ2fdCKFlgzNejqMasf_OcYU3jexMRqYNwq0yLiN1rEgZKStsvJBQ5tOkKXxpnCOKtKsztRVZsj7xZeXvX_jJScx2K3xKYwO-wqTASj38Fwjcu6mgQ4j9CRvrUijicaw4uG4d8tq9BnH80iT6DaQlfYHa5Y-qrknaDDSNo8L9CV67kRAJZ5ilUPIJrqlIJlHiSeuOfNML7T-wdn4ovej3WGWp7rYUST_sWD9R0x5l4zCl1ycf91_wbnkn");'></div>
+</div>
+<h1 class="text-dark-gray dark:text-background-light tracking-tight text-3xl font-bold leading-tight text-center pb-3 pt-6">Monitor Everything, Anywhere</h1>
+<p class="text-dark-gray dark:text-background-light text-base font-normal leading-normal pb-3 pt-1 text-center">Real-time data from your farm in your pocket</p>
+</div>
+<div class="px-4 pb-8">
+<div class="flex w-full flex-row items-center justify-center gap-3 py-5">
+<div class="h-2 w-2 rounded-full bg-primary dark:bg-bright-green"></div>
+<div class="h-2 w-2 rounded-full bg-primary/20 dark:bg-bright-green/30"></div>
+<div class="h-2 w-2 rounded-full bg-primary/20 dark:bg-bright-green/30"></div>
+</div>
+<button class="w-full bg-primary text-white dark:bg-bright-green dark:text-dark-gray py-4 px-6 rounded-lg text-lg font-bold">
+        Get Started
+      </button>
+</div>
+</div>
+</body></html>

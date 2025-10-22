@@ -1,0 +1,14 @@
+# Android build
+build/
+.gradle/
+*.iml
+*.apk
+*.jks
+
+# Android Studio
+.idea/
+.vscode/
+*.log
+
+# Local properties
+local.properties

@@ -45,7 +45,9 @@ android/local.properties
 android/app/*.jks
 android/app/*.keystore
 android/gradle/wrapper/*.zip
+android/gradle/wrapper/**/*.jar
 gradle.zip
+*.zip
 
 # Metro bundler
 .metro-health-check-result
